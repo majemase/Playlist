@@ -1,19 +1,10 @@
 package com.example.playlist;
 
 public class Musica {
-    int id;
     String titulo;
     String autor;
     int imagen;
     int audio;
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getTitulo() {
         return titulo;
@@ -47,8 +38,7 @@ public class Musica {
         this.audio = audio;
     }
 
-    public Musica(int id, String titulo, String autor, int imagen, int audio) {
-        this.id = id;
+    public Musica(String titulo, String autor, int imagen, int audio) {
         this.titulo = titulo;
         this.autor = autor;
         this.imagen = imagen;
